@@ -1,0 +1,236 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html{
+    background-image:url("img/gd1.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: auto;
+    width:100%;
+    min-width:922px;
+}
+
+
+/* HEADER */
+header {
+    width:auto;
+}
+
+#titleimg {
+    padding: 0px 20px;
+    height:120px;
+    
+}
+
+#banner {
+    background-image:url("/img/SeamlessNebulaDP0462-1/SeamlessNebula8.png");
+    background-size:500px;
+    display:flex;
+    Height:150px;
+    padding-top:12px;
+    position:relative;
+}
+
+/* Navbar */
+.navbar {
+    width:100%;
+    height:40px;
+    background-color:#ffd6dd;
+    position:absolute;
+    top:150px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .15);
+    
+}
+
+.navbar ul {
+    float:left;
+    padding-left:15px;
+}
+
+.navbar img{
+    
+    float:right;
+    padding-top:4px;
+    padding-right:22px;
+}
+
+.navbar ul li {
+    float:left;
+    list-style:none;
+    position:relative;
+}
+
+.navbar ul li a {
+    display:block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:5px 10px;
+    padding:6px 7px;
+    color:#fff;
+    font-size:14px;
+    text-decoration:none;
+}
+
+.navbar ul li a:hover {
+    background-color:thistle;
+    border-radius:5px;
+}
+
+#home{
+    background-color:rgb(131, 222, 255);
+    font-family:cursive;
+    font-size:20px;
+    border-radius:10px;
+    float:left;
+    margin-top:-2px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .15);  
+}
+
+#home:hover {
+    background-color:#6B9CF7;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .15);  
+}
+
+/* NAVIGATION MENU HEADER DROPDOWN */
+.navbar ul li ul {
+    /* Dropdown */
+    display:none; 
+    position:absolute;
+    top:40px;
+    left:10px;
+    background-color:thistle;
+    padding:10px;
+    border-radius:0px 0px 7px 7px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, .15);    
+}
+
+.navbar ul li:hover ul {
+    display:block;
+}
+
+.navbar ul li ul li {
+    
+    width:150px;
+    border-radius:4px;
+}
+
+.navbar ul li ul li a {
+    padding:6px 0px 6px 5px;
+}
+
+.navbar ul li ul li a:hover {
+    padding:6px 0px 6px 5px;
+    background-color:#ffd6dd;
+    
+}
+
+/* BODY */
+
+body {
+    height:100%;
+    position:relative;
+    padding-bottom:760px;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(109, 109, 109);
+
+}
+
+#posts{
+    padding-top:100px;
+    top:500px;
+    background-color:white;
+    border-radius:10px;
+    padding:15px;
+    width:700px;
+    margin: 0px 40px;
+}
+#posts div p, #posts li{
+    padding: 10px 0px;
+}
+
+#posts ul {
+    padding: 15px 30px 25px 40px;
+}
+
+hr {
+    color:#cacaca;
+    box-align:center;
+}
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    display:flex;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    left:0px;
+    width: 100%;
+    height: auto;
+    background-image:url("img/pixel_sunset1.png");
+    background-size: auto 100%;
+}
+
+/* ABOUT */
+.about {
+    border-radius:5px;
+    padding:5px;
+}
+
+.about table{
+    border-style:dotted;
+    border-color:orange;
+    background-color:white;
+    border-radius:10px;
+    padding:5px 5px 30px;
+}
+
+.about th {
+    font-family: cursive;
+}
+.about img {
+    height:150px;
+    border-radius:5px;
+}
+
+.about span{
+    width:200px;
+    display:inline-block;
+    padding:0px 0px 0px 25px;
+}
+
+
+.contact, .resources, .sources{
+    border:3px;
+    border-style:dotted;
+    border-color:orange;
+    background-color:white;
+    border-radius:10px;
+    margin:5px;
+    padding:10px 5px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+input{
+    margin:5px;
+    text-align:left;
+}
+
+.resources li{
+    padding: 10px 5px;
+    list-style:none;
+}
+/* CONTACT */
+
+textarea {
+    margin:10px 5px;
+    padding:5px;
+}
+
+textarea::placeholder {
+    color: #979797; 
+    font-family:'Courier New', Courier, monospace;
+    font-size:15px;
+  }
